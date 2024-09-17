@@ -14,10 +14,11 @@ html {
 }
 
 body {
+  color: var(--color-body);
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-size: 2.4rem;
   line-height: 1.5;
-  color: var(--color-body);
+  margin: 20px;
 }
 
 h1,
@@ -73,10 +74,10 @@ a {
 
 .link-arrow {
   color: var(--color-accent);
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  font-weight: bold;
   font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
 }
 
 .link-arrow::after {
@@ -96,6 +97,43 @@ a {
 @media screen and (min-width: 1024px) {
   .link-arrow {
     font-size: 1.5rem;
+  }
+}
+
+/* BADGE COMPONENT */
+
+.badge {
+  border-radius: 22px;
+  padding: 0.5rem 2.5rem 1rem 2.3rem;
+  font-weight: 600;
+  white-space: nowrap;
+  font-size: 2rem;
+}
+
+.badge--small {
+  font-size: 1.6rem;
+}
+
+.badge--primary {
+  background: var(--color-primary);
+  color: white;
+}
+
+.badge--secondary {
+  background: var(--color-secondary);
+  color: white;
+}
+/* MEDIA QUERIES LINK COMPONENT */
+
+/* DESKTOP */
+
+@media screen and (min-width: 1024px) {
+  .badge {
+    font-size: 1.5rem;
+  }
+
+  .badge--small {
+    font-size: 1.2rem;
   }
 }
 
