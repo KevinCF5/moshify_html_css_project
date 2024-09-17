@@ -7,6 +7,8 @@
   box-sizing: border-box;
 }
 
+/* TYPOGRAPHY */
+
 html {
   font-size: 62.5%;
 }
@@ -41,7 +43,11 @@ p {
   margin-top: 0;
 }
 
-/* MEDIA QUERIES */
+a {
+  text-decoration: none;
+}
+
+/* MEDIA QUERIES TYPOGRAPHY */
 
 /* DESKTOP */
 
@@ -60,6 +66,36 @@ p {
 
   h3 {
     font-size: 2.4rem;
+  }
+}
+
+/* LINK COMPONENT */
+
+.link-arrow {
+  color: var(--color-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.link-arrow::after {
+  content: "-->";
+  margin-left: 5px;
+  transition: margin 0.15s;
+}
+
+.link-arrow:hover::after {
+  margin-left: 10px;
+}
+
+/* MEDIA QUERIES LINK COMPONENT */
+
+/* DESKTOP */
+
+@media screen and (min-width: 1024px) {
+  .link-arrow {
+    font-size: 1.5rem;
   }
 }
 
