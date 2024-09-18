@@ -6,6 +6,7 @@
 @import "../../components/lists/_lists.css";
 @import "../../components/inputs/_input.css";
 @import "../../components/cards/_cards.css";
+@import "../../components/plans/_plans.css";
 
 /* TODO:  */
 /* FIXME:  */
@@ -79,3 +80,9 @@ a {
     font-size: 2.4rem;
   }
 }
+
+/* PLAN COMPONENT */
+
+/* MEDIA QUERIES PLAN COMPONENT */
+
+/* DESKTOP */

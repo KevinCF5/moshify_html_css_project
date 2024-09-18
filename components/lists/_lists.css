@@ -18,7 +18,7 @@
 
 .list--tick .list__item {
   padding-left: 0.5rem;
-  margin-bottom: 2.2rem;
+  letter-spacing: 1px;
 }
 
 /* MEDIA QUERIES LIST COMPONENT */
