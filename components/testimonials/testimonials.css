@@ -1,0 +1,48 @@
+/* TESTIMONIALS COMPONENT */
+
+.testimonial {
+  padding: 3rem;
+}
+
+.testimonial .quote {
+  margin: 2rem 0;
+}
+
+.testimonial__image-container {
+  position: relative;
+  margin: 0 3rem;
+}
+
+.testimonial__image {
+  width: 100%;
+}
+
+.testimonial__image-container > .icon-container {
+  position: absolute;
+  top: 2rem;
+  right: -47px;
+}
+
+/* MEDIA QUERIES TESTIMONIALS COMPONENT */
+
+/* TABLETS */
+
+@media screen and (min-width: 768px) {
+  .testimonial__image-container {
+    margin: 0;
+  }
+
+  .testimonial .quote {
+    margin: 5rem 0 0 7rem;
+    line-height: 1.5;
+  }
+
+  .testimonial .quote,
+  .testimonial .quote__author {
+    font-size: 2.4rem;
+  }
+
+  .testimonial .quote__author {
+    white-space: nowrap;
+  }
+}
