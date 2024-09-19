@@ -8,6 +8,7 @@
 @import "../../components/cards/_cards.css";
 @import "../../components/plans/_plans.css";
 @import "../../components/medias/_medias.css";
+@import "../../components/quotes/_quotes.css";
 
 /* TODO:  */
 /* FIXME:  */
@@ -81,12 +82,6 @@ a {
     font-size: 2.4rem;
   }
 }
-
-/* QUOTES COMPONENT */
-
-/* MEDIA QUERIES QUOTES COMPONENT */
-
-/* DESKTOP */
 
 /* PLAN COMPONENT */
 
