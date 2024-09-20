@@ -11,6 +11,7 @@
 @import "../../components/quotes/_quotes.css";
 @import "../../components/grids/_grids.css";
 @import "../../components/testimonials/testimonials.css";
+@import "../../components/callouts/_callouts.css";
 
 /* TODO:  */
 /* FIXME:  */
@@ -84,10 +85,10 @@ a {
   }
 }
 
-/* DESKTOP */
-
 /* PLAN COMPONENT */
 
 /* MEDIA QUERIES PLAN COMPONENT */
+
+/* TABLETS */
 
 /* DESKTOP */
