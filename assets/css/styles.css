@@ -14,6 +14,7 @@
 @import "../../components/callouts/_callouts.css";
 @import "../../components/collapsibles/_collapsible.css";
 @import "../../components/blocks/_blocks.css";
+@import "../../components/navbars/_navbars.css";
 
 /* TODO:  */
 /* FIXME:  */
@@ -91,12 +92,6 @@ a {
   max-width: 1140px;
   margin: 0 auto;
 }
-
-/* MEDIA QUERIES BLOCKS COMPONENT */
-
-/* TABLETS */
-
-/* DESKTOP */
 
 /* PLAN COMPONENT */
 
