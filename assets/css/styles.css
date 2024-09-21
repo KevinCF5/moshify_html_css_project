@@ -15,6 +15,7 @@
 @import "../../components/collapsibles/_collapsible.css";
 @import "../../components/blocks/_blocks.css";
 @import "../../components/navbars/_navbars.css";
+@import "../../components/hero/_hero.css";
 
 /* TODO:  */
 /* FIXME:  */
@@ -44,6 +45,7 @@ h2,
 h3 {
   color: var(--color-headings);
   margin-bottom: 1rem;
+  line-height: 1.1;
 }
 
 h1 {
@@ -92,6 +94,10 @@ a {
   max-width: 1140px;
   margin: 0 auto;
 }
+
+/* TABLETS */
+
+/* DESKTOP */
 
 /* PLAN COMPONENT */
 
