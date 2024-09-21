@@ -1,13 +1,13 @@
 /* ICON COMPONENT */
 
 .icon {
-  width: 64px;
-  height: 64px;
+  width: 40px;
+  height: 40px;
 }
 
 .icon--small {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
 }
 
 .icon--primary {
@@ -23,9 +23,9 @@
   background: #f3f9fa;
   border-radius: 100%;
   display: inline-flex;
-  height: 94px;
+  height: 64px;
   justify-content: center;
-  width: 94px;
+  width: 64px;
 }
 
 .icon-container--accent {
