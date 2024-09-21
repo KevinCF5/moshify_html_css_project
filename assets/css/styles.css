@@ -96,6 +96,21 @@ a {
   margin: 0 auto;
 }
 
+/* PLAN BLOCK COMPONENT */
+
+.block-plans .grid {
+  gap: 8rem 4rem;
+}
+
+.block-plans .card {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* MEDIA QUERIES PLAN BLOCK COMPONENT */
+
+/* TABLETS */ /* DESKTOP */
+
 /* PLAN COMPONENT */
 
 /* MEDIA QUERIES PLAN COMPONENT */

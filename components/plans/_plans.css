@@ -1,5 +1,9 @@
 /* PLAN COMPONENT */
 
+.plan {
+  transition: transform 0.2s ease-out;
+}
+
 .plan__name {
   color: white;
   margin: 0;
@@ -42,6 +46,10 @@
   right: 6%;
 }
 
+.plan:hover {
+  transform: scale(1.05);
+}
+
 /* MEDIA QUERIES PLAN COMPONENT */
 
 /* DESKTOP */
@@ -61,5 +69,13 @@
 
   .plan__description {
     font-size: 1.7rem;
+  }
+
+  .plan--popular {
+    transform: scale(1.1);
+  }
+
+  .plan--popular:hover {
+    transform: scale(1.15);
   }
 }
