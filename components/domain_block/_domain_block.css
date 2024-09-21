@@ -1,0 +1,33 @@
+/* DOMAIN BLOCK COMPONENT */
+
+.block-domain .input-group {
+  border: 0;
+  box-shadow: 0 10px 30px 10px #e6ebee;
+  margin: 4rem auto;
+}
+
+.block-domain__prices {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 6rem);
+  font-size: 2rem;
+  justify-items: center;
+  font-weight: 700;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* MEDIA QUERIES DOMAIN BLOCK COMPONENT */
+
+/* TABLETS */ /* DESKTOP */
+
+@media screen and (min-width: 768px) {
+  .block-domain__prices {
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    font-size: 1.5rem;
+  }
+
+  .block-domain__prices .badge {
+    font-size: 1.5rem;
+  }
+}

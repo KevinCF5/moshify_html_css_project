@@ -16,6 +16,7 @@
 @import "../../components/blocks/_blocks.css";
 @import "../../components/navbars/_navbars.css";
 @import "../../components/hero/_hero.css";
+@import "../../components/domain_block/_domain_block.css";
 
 /* TODO:  */
 /* FIXME:  */
@@ -95,14 +96,8 @@ a {
   margin: 0 auto;
 }
 
-/* TABLETS */
-
-/* DESKTOP */
-
 /* PLAN COMPONENT */
 
 /* MEDIA QUERIES PLAN COMPONENT */
 
-/* TABLETS */
-
-/* DESKTOP */
+/* TABLETS */ /* DESKTOP */
