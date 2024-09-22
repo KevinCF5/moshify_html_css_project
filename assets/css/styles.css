@@ -19,6 +19,7 @@
 @import "../../components/block_domain/_block_domain.css";
 @import "../../components/block_plans/_block_plans.css";
 @import "../../components/block_features/_block_features.css";
+@import "../../components/block_showcase/_block_showcase.css";
 
 /* TODO:  */
 /* FIXME:  */
@@ -31,6 +32,10 @@
 }
 
 /* TYPOGRAPHY */
+::selection {
+  background: var(--color-primary);
+  color: white;
+}
 
 html {
   font-size: 62.5%;
@@ -61,6 +66,7 @@ h2 {
 
 h3 {
   font-size: 3rem;
+  font-weight: 500;
 }
 
 p {

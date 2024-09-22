@@ -1,7 +1,6 @@
 /* LIST COMPONENT */
 
 .list {
-  color: var(--color-headings);
   list-style: none;
   padding-left: 0;
 }
@@ -14,6 +13,7 @@
 .list--tick {
   list-style-image: url(../../assets/images/icons/tick.svg);
   padding-left: 2rem;
+  color: var(--color-headings);
 }
 
 .list--tick .list__item {

@@ -2,6 +2,7 @@
 
 .media {
   display: flex;
+  margin-bottom: 4rem;
 }
 
 .media__title {
@@ -13,5 +14,5 @@
 }
 
 .media__image {
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
