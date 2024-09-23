@@ -10,12 +10,12 @@
 @import "../../components/medias/_medias.css";
 @import "../../components/quotes/_quotes.css";
 @import "../../components/grids/_grids.css";
-@import "../../components/testimonials/testimonials.css";
+@import "../../components/testimonials/_testimonials.css";
 @import "../../components/callouts/_callouts.css";
 @import "../../components/collapsibles/_collapsible.css";
 @import "../../components/blocks/_blocks.css";
 @import "../../components/navbars/_navbars.css";
-@import "../../components/block_hero/block_hero.css";
+@import "../../components/block_hero/_block_hero.css";
 @import "../../components/block_domain/_block_domain.css";
 @import "../../components/block_plans/_block_plans.css";
 @import "../../components/block_features/_block_features.css";
