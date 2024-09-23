@@ -1,7 +1,7 @@
 /* NAVBAR COMPONENT */
 
 .nav {
-  background: black;
+  background: #232323;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;

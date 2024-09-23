@@ -1,9 +1,12 @@
 /* HERO COMPONENT */
+.hero {
+  background: #232323;
+}
 
 .hero__tagline {
   font-size: 2rem;
   letter-spacing: 2px;
-  margin-bottom: 5.5rem;
+  margin: 2rem 0 5rem;
 }
 
 .hero__image {
@@ -11,7 +14,8 @@
 }
 
 .hero__content .btn--stretched {
-  padding: 2.2rem 12rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
 }
 
 /* MEDIA QUERIES HERO COMPONENT */
@@ -22,10 +26,12 @@
   .hero {
     padding-top: 0;
   }
+
   .hero__content {
     text-align: left;
     align-self: center;
   }
+
   .hero__content .btn--stretched {
     padding-left: 6rem;
     padding-right: 6rem;

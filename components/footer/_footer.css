@@ -1,0 +1,91 @@
+/* FOOTER COMPONENT */
+
+.footer {
+  background: #232323;
+}
+
+.footer a {
+  color: #aaaaaa;
+  transition: color 0.3s;
+}
+
+.footer a:hover {
+  color: white;
+}
+
+.footer__section {
+  padding: 2rem;
+  border-bottom: 2px solid #393939;
+}
+
+.footer__section .list {
+  margin: 0;
+}
+
+.footer__heading {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.footer li {
+  margin-bottom: 2rem;
+}
+
+.footer li:first-of-type {
+  margin-top: 1rem;
+}
+
+.footer__brand {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.footer__brand img {
+  /* TODO: consider refactoring this and apply this to all images */
+  width: 100%;
+  max-width: 230px;
+}
+
+.footer__copyright {
+  font-size: 2.1rem;
+  color: white;
+  opacity: 0.3;
+}
+
+/* MEDIA QUERIES FOOTER COMPONENT */
+
+@media screen and (min-width: 768px) {
+  .footer__sections {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+
+  .footer .collapsible__chevron {
+    display: none;
+  }
+
+  .footer .collapsible__content {
+    max-height: 100%;
+    opacity: 1;
+  }
+
+  .footer__brand {
+    order: -1;
+    margin-top: 1rem;
+  }
+
+  .footer__section {
+    border: 0;
+  }
+
+  .footer a {
+    font-size: 1.5rem;
+  }
+
+  .footer__copyright {
+    font-size: 1.5rem;
+  }
+
+  .footer__heading {
+    font-size: 1.6rem;
+  }
+}

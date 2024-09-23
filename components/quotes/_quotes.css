@@ -21,18 +21,21 @@
   font-weight: 600;
   font-style: normal;
   margin-bottom: 0;
+  font-size: 2rem;
+  white-space: nowrap;
 }
 
 .quote__company {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-style: normal;
   color: var(--color-headings);
   opacity: 0.4;
+  white-space: nowrap;
 }
 
 .quote__line {
   position: relative;
-  bottom: 35px;
+  bottom: 15px;
 }
 
 /* MEDIA QUERIES QUOTES COMPONENT */
